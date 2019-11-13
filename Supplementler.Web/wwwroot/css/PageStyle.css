@@ -1,0 +1,36 @@
+﻿body {
+}
+
+table{
+    display:inline-block;
+    margin:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: red;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+    font-size: 18px;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+        li a:hover {
+            background-color: #111111;
+        }

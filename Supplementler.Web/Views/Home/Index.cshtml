@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/css/PageStyle.css" rel="stylesheet" />
+
+@model IndexViewModel
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Supplementler.Web</a>
+        </div>
+        <div>
+
+            <ul>
+                @foreach (var menuItem in Model.MenuList)
+                {
+                    <li>
+                        @menuItem.MenuName
+                        <ul>
+                            @foreach (var menuContentItem in menuItem.MenuContent)
+                            {
+                                <li><a asp-area="" asp-controller="@menuContentItem.MenuContentUrl" asp-action="Index">@menuContentItem.MenuContentName</a></li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+@Html.Partial("Widget.cshtml", Model.WidgetList)

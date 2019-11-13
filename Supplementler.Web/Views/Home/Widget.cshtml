@@ -1,0 +1,25 @@
+﻿@model  List<SupplementlerWidgetModel>
+
+<br />
+<br />
+<hr />
+@foreach (var item in Model)
+{
+    <table>
+        <tr>
+            <td><img src="Files/@item.ProductUrl" /></td>
+        </tr>
+        <tr>
+            <td>@item.ProductName</td>
+        </tr>
+        <tr>
+            <td>@item.ProductStar</td>
+        </tr>
+        <tr>
+            <td>@item.ProductAmount</td>
+        </tr>
+        <tr>
+            <td><button>Add To Card</button></td>
+        </tr>
+    </table>
+}

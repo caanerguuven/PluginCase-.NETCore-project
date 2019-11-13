@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Model", "Supplementler.Model\Supplementler.Model.csproj", "{7885437D-C7DB-4F22-8A98-46CEB19656A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Interface", "Supplementler.Interface\Supplementler.Interface.csproj", "{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Menu.Plugin", "Supplementler.Menu\Supplementler.Menu.Plugin.csproj", "{0647E0DB-D09B-461B-999A-69B3C54CD59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Widget.Plugin", "Supplementler.Widget\Supplementler.Widget.Plugin.csproj", "{493464FF-0524-4DD2-A95A-2753FAB750C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Web", "Supplementler.Web\Supplementler.Web.csproj", "{601A2592-8572-4EEB-9794-AA79987A67E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Business", "Supplementler.Business\Supplementler.Business.csproj", "{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7885437D-C7DB-4F22-8A98-46CEB19656A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7885437D-C7DB-4F22-8A98-46CEB19656A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7885437D-C7DB-4F22-8A98-46CEB19656A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7885437D-C7DB-4F22-8A98-46CEB19656A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0647E0DB-D09B-461B-999A-69B3C54CD59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0647E0DB-D09B-461B-999A-69B3C54CD59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0647E0DB-D09B-461B-999A-69B3C54CD59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0647E0DB-D09B-461B-999A-69B3C54CD59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493464FF-0524-4DD2-A95A-2753FAB750C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493464FF-0524-4DD2-A95A-2753FAB750C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493464FF-0524-4DD2-A95A-2753FAB750C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493464FF-0524-4DD2-A95A-2753FAB750C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601A2592-8572-4EEB-9794-AA79987A67E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601A2592-8572-4EEB-9794-AA79987A67E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601A2592-8572-4EEB-9794-AA79987A67E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601A2592-8572-4EEB-9794-AA79987A67E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B33EB899-70C2-4492-8AE6-FBEA5D065DA1}
+	EndGlobalSection
+EndGlobal
