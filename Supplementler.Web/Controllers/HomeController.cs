@@ -25,14 +25,6 @@ namespace Supplementler.Web.Controllers
         {
             log.LogInformation("Hello, world!");
             log.LogInformation("Indexx");
-            /*
-             TO DO :
-
-            Repository Pattern entegre edilecek ama nerede kullanılacak.
-            Projeyi github a private şekliyle at.
-            2.kez commit ver.
-             */
-            //Loglamalar
             var allPluginDatas = provider.GetAllDatasFromPlugins()
                                 .Select(s => new PluginItem() {  PluginId = s.PluginId, PluginValue = s.PluginValue })
                                 .ToList();

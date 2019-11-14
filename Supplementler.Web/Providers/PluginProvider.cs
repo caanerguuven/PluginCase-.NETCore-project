@@ -24,7 +24,7 @@ namespace Supplementler.Web.Providers
 
         private void Compose()
         {
-            string filePath = $"{Directory.GetParent(Directory.GetCurrentDirectory()).FullName}\\";
+            string filePath = $"{Directory.GetParent(Directory.GetCurrentDirectory()).FullName}\\DLLs\\";
             var assemblies = new List<Assembly>() { typeof(Program).GetTypeInfo().Assembly };
             var pluginAssemblies = Directory.GetFiles(filePath, "*.Plugin.dll", SearchOption.AllDirectories)
                 .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)

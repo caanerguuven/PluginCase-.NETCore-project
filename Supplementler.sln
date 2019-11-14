@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Model", "Supplementler.Model\Supplementler.Model.csproj", "{7885437D-C7DB-4F22-8A98-46CEB19656A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Model", "Supplementler.Model\Supplementler.Model.csproj", "{7885437D-C7DB-4F22-8A98-46CEB19656A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Interface", "Supplementler.Interface\Supplementler.Interface.csproj", "{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Interface", "Supplementler.Interface\Supplementler.Interface.csproj", "{DAA44FBB-CA72-442A-BBDC-BD3DA3C6E696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Menu.Plugin", "Supplementler.Menu\Supplementler.Menu.Plugin.csproj", "{0647E0DB-D09B-461B-999A-69B3C54CD59E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Menu.Plugin", "Supplementler.Menu\Supplementler.Menu.Plugin.csproj", "{0647E0DB-D09B-461B-999A-69B3C54CD59E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Widget.Plugin", "Supplementler.Widget\Supplementler.Widget.Plugin.csproj", "{493464FF-0524-4DD2-A95A-2753FAB750C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Widget.Plugin", "Supplementler.Widget\Supplementler.Widget.Plugin.csproj", "{493464FF-0524-4DD2-A95A-2753FAB750C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Web", "Supplementler.Web\Supplementler.Web.csproj", "{601A2592-8572-4EEB-9794-AA79987A67E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Web", "Supplementler.Web\Supplementler.Web.csproj", "{601A2592-8572-4EEB-9794-AA79987A67E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supplementler.Business", "Supplementler.Business\Supplementler.Business.csproj", "{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supplementler.Business", "Supplementler.Business\Supplementler.Business.csproj", "{C720F4A2-5EFC-4C01-9668-A2EA08F44EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{63CA6604-6DEE-4A49-870F-5566A56CCA61}"
+	ProjectSection(SolutionItems) = preProject
+		Supplementler.Menu\bin\Debug\netcoreapp2.1\Supplementler.Menu.Plugin.dll = Supplementler.Menu\bin\Debug\netcoreapp2.1\Supplementler.Menu.Plugin.dll
+		Supplementler.Widget\bin\Debug\netcoreapp2.1\Supplementler.Widget.Plugin.dll = Supplementler.Widget\bin\Debug\netcoreapp2.1\Supplementler.Widget.Plugin.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
